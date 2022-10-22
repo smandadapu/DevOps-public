@@ -1,8 +1,8 @@
 <project name="Rabit" default="start" basedir=".">
 	<property file="tomcatdeploy.properties"/>
-	<property name="src" location="${basedir}/source"/>
+	<property name="src" location="${basedir}/src"/>
 	<property name="Feature" location="${basedir}/WebContent"/>
-	<property name="lib" location="${webcontent}/WEB-INF/library"/>
+	<property name="lib" location="${webcontent}/WEB-INF/lib"/>
 	<!-- Configure the directory into which the web application is built -->
 	<property name="build" value="${basedir}/build"/>
 	<property name="war" location="${basedir}/war"/>
