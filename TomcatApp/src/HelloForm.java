@@ -28,7 +28,7 @@ public class HelloForm extends HttpServlet {
                 "<h1 align=\"center\">" + title + "</h1>\n" +
                 "<ul>\n" +
                 "  <li><b>First Name</b>: "
-                + request.getParameter("username") + "\n" +
+                + request.getParameter("user-rebase") + "\n" +
                 "  <li><b>Last Name</b>: "
                 + request.getParameter("user_lastname") + "\n" +
                 "</ul>\n" +
